@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AdminLogin.fxml -->
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" spacing="10" style="-fx-background-color: #f0f4f7; -fx-background-image: url('adminPhoto.jpg'); -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: cover;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakesandladdersviper.Controller.AdminLoginController">
+   <children>
+       <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="600.0">
+          <children>
+              <Label style="-fx-font-size: 25px;-fx-font-weight: bold;-fx-alignment: center ;-fx-text-alignment: center" text="Admin Login" />
+          </children>
+       </HBox>
+      <Label prefHeight="21.0" prefWidth="647.0" text="Sorry for the Miscomfort, " />
+      <Label prefHeight="21.0" prefWidth="647.0" text="We have to Make sure that you're allowed to change some Settings." />
+       <Text style="-fx-font-size: 20px" text="Please enter your username:" wrappingWidth="315.427734375" />
+       <TextField fx:id="usernameField" />
+       <Text style="-fx-font-size: 20px" text="Please enter your password:" wrappingWidth="261.50390625" />
+       <PasswordField fx:id="passwordField" />
+       <HBox alignment="CENTER">
+          <children>
+              <Button layoutX="300.0" layoutY="300.0" onAction="#loginButtonClicked" prefHeight="45.0" prefWidth="85.0" style="-fx-background-color:linear-gradient(#7ed56f, #28b485); -fx-border-radius: 5px;" text="Login" />
+          </children>
+       </HBox>
+      <HBox alignment="CENTER" />
+   </children>
+</VBox>

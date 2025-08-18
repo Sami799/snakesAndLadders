@@ -1,0 +1,27 @@
+{"GameHistory": [
+    {
+        "duration": "15 minutes",
+        "difficulty": "Easy",
+        "winner": "Alice"
+    },
+    {
+        "duration": "30 minutes",
+        "difficulty": "Hard",
+        "winner": "Bob"
+    },
+    {
+        "duration": "10:34:21",
+        "difficulty": "EASY",
+        "winner": "txfj"
+    },
+    {
+        "duration": "17:05:35",
+        "difficulty": "EASY",
+        "winner": "red"
+    },
+    {
+        "duration": "00:11:03",
+        "difficulty": "EASY",
+        "winner": "red"
+    }
+]}
